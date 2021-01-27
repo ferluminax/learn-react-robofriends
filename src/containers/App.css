@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url('woff2/FiraCode-Medium.woff2') format('woff2'),
+    url("woff/FiraCode-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1{
+	font-family: 'Fira Code';
+	color: #00bbbb;
+}
