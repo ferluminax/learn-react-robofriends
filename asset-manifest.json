@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/learn-react-robofriends/static/css/main.e717ac73.chunk.css",
+    "main.js": "/learn-react-robofriends/static/js/main.4fde9688.chunk.js",
+    "main.js.map": "/learn-react-robofriends/static/js/main.4fde9688.chunk.js.map",
+    "runtime-main.js": "/learn-react-robofriends/static/js/runtime-main.ed25a532.js",
+    "runtime-main.js.map": "/learn-react-robofriends/static/js/runtime-main.ed25a532.js.map",
+    "static/css/2.31461e4f.chunk.css": "/learn-react-robofriends/static/css/2.31461e4f.chunk.css",
+    "static/js/2.5ea264a1.chunk.js": "/learn-react-robofriends/static/js/2.5ea264a1.chunk.js",
+    "static/js/2.5ea264a1.chunk.js.map": "/learn-react-robofriends/static/js/2.5ea264a1.chunk.js.map",
+    "static/js/3.5218428c.chunk.js": "/learn-react-robofriends/static/js/3.5218428c.chunk.js",
+    "static/js/3.5218428c.chunk.js.map": "/learn-react-robofriends/static/js/3.5218428c.chunk.js.map",
+    "index.html": "/learn-react-robofriends/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/learn-react-robofriends/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.e717ac73.chunk.css.map": "/learn-react-robofriends/static/css/main.e717ac73.chunk.css.map",
+    "static/js/2.5ea264a1.chunk.js.LICENSE.txt": "/learn-react-robofriends/static/js/2.5ea264a1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/learn-react-robofriends/static/media/FiraCode-Medium.edb17cd0.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed25a532.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.5ea264a1.chunk.js",
+    "static/css/main.e717ac73.chunk.css",
+    "static/js/main.4fde9688.chunk.js"
+  ]
+}
