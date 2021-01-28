@@ -2,6 +2,9 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ cardRobots }) => {
+	// if (true) {
+	// 	throw new Error('Noo Noo');
+	// }
 	return (
 		<div>
 	  	{

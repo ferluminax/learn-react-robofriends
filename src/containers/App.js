@@ -3,6 +3,7 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 // import {arrRobots} from '../robots';
 import Scroll from '../components/Scroll';
+import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css';
 
 
@@ -41,15 +42,18 @@ class App extends Component {
 			return valRobots.name.toLowerCase().includes(searchField.toLowerCase())
 		});
 
-		// if robots equals zero
+		// Tertary CF. f robots length equals zero
 		return !robots.length ?
+		// true condition
 		<h1 className='tc'>Loading</h1> :
+		// false condition
 		<div className='tc'>
 			<h1 className='f1'>RoboFriends</h1>
 			<SearchBox searchChange={this.onSearchChange}/>
 			<Scroll>
-				<h1>Hahay</h1>
-				<CardList cardRobots={filteredRobots}/>
+				<ErrorBoundary>
+					<CardList cardRobots={filteredRobots}/>
+				</ErrorBoundary>
 			</Scroll>
 		</div>
 	}
